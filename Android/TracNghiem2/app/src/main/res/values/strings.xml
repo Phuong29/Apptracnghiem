@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Trắc Nghiệm Khách Quan</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello">Chào mừng các bạn đến với ứng dụng Kiểm tra Trắc nghiệm Khách quan.</string>
+    <string name="bode">Với mỗi Bộ đề này thì các bạn có 10 phút làm bài với 20 câu hỏi. Hãy chắc chắn rằng bạn đã sẵn sàng rồi hãy chọn Bộ đề nhé </string>
+    <string name="gioithieu">Với bộ đề kiểm tra được tổng hợp ở các trường THPT hoặc các Trung tâm Ôn thi trên khắp mọi miền đất nước. Mong ứng dụng này sẽ giúp các bạn học tốt hơn và đạt được kết quả cao ở các Bộ môn này! </string>
+</resources>

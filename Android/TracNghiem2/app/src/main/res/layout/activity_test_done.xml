@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test_done"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              android:background="@drawable/custom_bg"
+    android:orientation="vertical"
+              android:layout_gravity="center"
+    tools:context="vn.nh.mrlongg.tracnghiemkhachquan.slide.TestDoneActivity">
+
+    <TextView
+        android:text="Kết thúc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fbfbfb"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/textView" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            android:textSize="20sp"
+            android:text="Câu đúng:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <TextView
+            android:textColor="#f00"
+            android:textStyle="bold"
+            android:layout_marginRight="22dp"
+            android:textSize="20sp"
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTrue"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            android:textSize="20sp"
+            android:text="Câu sai:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:textColor="#f00"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFalse"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            android:textSize="20sp"
+            android:text="Câu đã trả lời:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.79" />
+
+        <TextView
+            android:textColor="#f00"
+            android:textStyle="bold"
+            android:layout_marginRight="34dp"
+            android:textSize="20sp"
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAns"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            android:textSize="20sp"
+            android:text="Câu chưa trả lời:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.79" />
+
+        <TextView
+            android:textColor="#f00"
+            android:textStyle="bold"
+            android:layout_marginRight="57dp"
+            android:textSize="20sp"
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNotAns"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            android:textSize="20sp"
+            android:text="Tổng điểm:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:textColor="#f00"
+            android:textStyle="bold"
+            android:layout_marginRight="25dp"
+            android:textSize="20sp"
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTotalPoint"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_buton2"
+            android:text="Chơi lại"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAgain"
+            android:layout_weight="1" />
+
+        <Button
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_buton2"
+            android:text="Thoát"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnExit"
+            android:layout_weight="1" />
+
+        <Button
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_buton2"
+            android:text="Lưu điểm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSaveScore"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

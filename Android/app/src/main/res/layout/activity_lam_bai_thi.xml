@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dethi.LamBaiThiActivity"
+    android:orientation="vertical"
+    android:weightSum="11">
+    <LinearLayout
+        android:layout_weight="5"
+        android:background="#1BAFEA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:gravity="center"
+           android:layout_gravity="center">
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/ic_action_thoigian"
+               android:layout_marginRight="10dp">
+           </ImageView>
+           <TextView
+               android:id="@+id/tvTimer"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:text="Thời gian"
+               android:textColor="#FDFDFD"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:textSize="30sp" />
+       </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#1BAFEA"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btnEnd"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="NỘP BÀI"/>
+    </LinearLayout>
+</LinearLayout>

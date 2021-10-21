@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              android:background="#aaa823"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="4"
+                    android:id="@+id/tvNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="Câu 1"
+                    android:textColor="#ff0011"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    app:layout_constraintRight_toRightOf="parent"/>
+                <Button
+                    android:background="@drawable/custom_test"
+                    android:id="@+id/tiep"
+                    android:text="Tiếp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginBottom="8dp"/>
+                    <Button
+                        android:background="@drawable/custom_test"
+                        android:id="@+id/lui"
+                        android:text="Lùi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="8dp"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_marginBottom="8dp"
+                        app:layout_constraintVertical_bias="0.0"/>
+
+                    </android.support.constraint.ConstraintLayout>
+                <TextView
+                    android:id="@+id/tvQuestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Câu hỏi thứ nhất "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="italic"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:visibility="visible"/>
+
+            <RadioGroup
+                android:id="@+id/radGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp">
+
+                <RadioButton
+                    android:id="@+id/radA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorPrimary"
+                    android:checked="false"
+                    android:padding="10dp"
+                    android:text="Trả lời 1"
+                    android:textColor="#f4f4f7"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <RadioButton
+                    android:id="@+id/radB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorPrimary"
+                    android:checked="false"
+                    android:padding="10dp"
+                    android:text="Trả lời 2"
+                    android:textColor="#f9f9f9"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <RadioButton
+                    android:id="@+id/radC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorPrimary"
+                    android:checked="false"
+                    android:padding="10dp"
+                    android:text="Trả lời 3"
+                    android:textColor="#fcfcfc"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <RadioButton
+                    android:id="@+id/radD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorPrimary"
+                    android:checked="false"
+                    android:padding="10dp"
+                    android:text="Trả lời 3"
+                    android:textColor="#f6f6f9"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

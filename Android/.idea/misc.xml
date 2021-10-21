@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/phuon/.android/Android/app/src/main/res/drawable-anydpi/ic_action_app_menu.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/phuon/.android/Android/app/src/main/res/drawable-anydpi/ic_action_back.xml" value="0.1" />
+        <entry key="..\:/Users/phuon/.android/Android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/phuon/.android/Android/app/src/main/res/layout/activity_cau_hoi_liet.xml" value="0.1109375" />
+        <entry key="..\:/Users/phuon/.android/Android/app/src/main/res/layout/activity_de_thi.xml" value="0.1109375" />
+        <entry key="..\:/Users/phuon/.android/Android/app/src/main/res/layout/activity_de_thi1.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/phuon/.android/Android/app/src/main/res/layout/activity_de_thi2.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/phuon/.android/Android/app/src/main/res/layout/activity_lam_bai_thi.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/phuon/.android/Android/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/phuon/.android/Android/app/src/main/res/layout/activity_meo_thi.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/phuon/.android/Android/app/src/main/res/layout/activity_on_tap_cau_hoi.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/phuon/.android/Android/app/src/main/res/layout/activity_xep_hang.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/phuon/.android/Android/app/src/main/res/layout/layout_gridview.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/phuon/.android/Android/app/src/main/res/layout/line_item_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

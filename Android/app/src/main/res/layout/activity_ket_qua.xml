@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BẠN ĐÃ HOÀN THÀNH BÀI THI"
+        android:textSize="22sp"
+        android:textColor="#811111"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:id="@+id/tvThongBao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="BẠN ĐÃ TRƯỢT VÌ BẠN LÀM SAI CÂU ĐIỂM LIỆT"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tổng số câu đúng: "
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:id="@+id/tvSoCauDung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#4E0000"
+            android:textStyle="bold"
+            android:text="20 "/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng số điểm: "
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:id="@+id/tvDiem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#4E0000"
+            android:textStyle="bold"
+            android:text="100"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THOÁT"/>
+    </LinearLayout>
+
+</LinearLayout>
